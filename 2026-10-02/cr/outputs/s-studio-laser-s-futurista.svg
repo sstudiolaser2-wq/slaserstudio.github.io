@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" fill="none">
+ <defs>
+  <linearGradient id="chrome" x1="298" y1="205" x2="704" y2="766" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset=".12" stop-color="#8C98A3"/><stop offset=".25" stop-color="#F8FCFF"/><stop offset=".42" stop-color="#697681"/><stop offset=".57" stop-color="#EAF1F5"/><stop offset=".73" stop-color="#89949E"/><stop offset=".88" stop-color="#FFFFFF"/><stop offset="1" stop-color="#77838F"/></linearGradient>
+  <linearGradient id="edge" x1="285" y1="222" x2="705" y2="751" gradientUnits="userSpaceOnUse"><stop stop-color="#ECFFFF"/><stop offset=".5" stop-color="#8295A4"/><stop offset="1" stop-color="#D5E8F2"/></linearGradient>
+  <filter id="shadow" x="150" y="125" width="700" height="710" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="20" result="blur"/><feOffset dx="5" dy="17"/><feComponentTransfer><feFuncA type="linear" slope=".7"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="shine" x="180" y="130" width="650" height="670"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <rect width="1000" height="1000" fill="#080B10"/>
+ <circle cx="500" cy="467" r="334" stroke="#1E2A32" stroke-width="1"/>
+ <circle cx="500" cy="467" r="347" stroke="#121B22" stroke-width="1" stroke-dasharray="3 11"/>
+ <!-- Heavy futuristic chrome S with machined bevel -->
+ <text x="203" y="721" fill="#1B232A" font-family="Arial,Helvetica,sans-serif" font-size="600" font-style="italic" font-weight="900" letter-spacing="-48" filter="url(#shadow)">S</text>
+ <text x="185" y="692" fill="url(#chrome)" stroke="url(#edge)" stroke-width="3" paint-order="stroke fill" font-family="Arial,Helvetica,sans-serif" font-size="600" font-style="italic" font-weight="900" letter-spacing="-48">S</text>
+ <text x="500" y="850" text-anchor="middle" fill="#CBD5DD" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="500" letter-spacing="14">STUDIO LASER</text>
+ <path d="M410 879H590" stroke="#667783" stroke-width="2"/>
+</svg>

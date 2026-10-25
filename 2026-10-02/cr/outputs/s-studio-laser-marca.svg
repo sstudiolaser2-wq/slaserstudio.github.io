@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+ <defs>
+  <linearGradient id="laser" x1="294" y1="115" x2="879" y2="667" gradientUnits="userSpaceOnUse"><stop stop-color="#E8FFFF"/><stop offset=".22" stop-color="#73FBFF"/><stop offset=".57" stop-color="#00E5FF"/><stop offset="1" stop-color="#A44DFF"/></linearGradient>
+  <linearGradient id="edge" x1="342" y1="182" x2="820" y2="610" gradientUnits="userSpaceOnUse"><stop stop-color="#BFFFFF"/><stop offset="1" stop-color="#21C9FF"/></linearGradient>
+  <filter id="glow" x="190" y="45" width="830" height="760" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="19" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <rect width="1200" height="900" fill="#05070B"/>
+ <!-- Brand symbol: a single laser ribbon shaped into a confident S -->
+ <g filter="url(#glow)">
+  <path d="M817 202H474C379 202 320 254 320 331C320 395 368 431 454 455L736 534C822 558 870 594 870 658C870 735 811 787 716 787H357" stroke="url(#laser)" stroke-width="37" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M474 202V151M817 202L859 160M320 331H253M870 658H941M357 787V839" stroke="url(#edge)" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="474" cy="143" r="11" fill="#C8FFFF"/><circle cx="866" cy="153" r="11" fill="#72F7FF"/><circle cx="245" cy="331" r="11" fill="#72F7FF"/><circle cx="949" cy="658" r="11" fill="#A44DFF"/><circle cx="357" cy="847" r="11" fill="#A44DFF"/>
+ </g>
+ <path d="M376 331H452M737 658H820" stroke="#E7FFFF" stroke-width="3" stroke-linecap="round" opacity=".72"/>
+ <text x="600" y="864" text-anchor="middle" fill="#F3F7FC" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="600" letter-spacing="15">S STUDIO</text>
+ <text x="600" y="899" text-anchor="middle" fill="#61EFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500" letter-spacing="12">LASER</text>
+</svg>

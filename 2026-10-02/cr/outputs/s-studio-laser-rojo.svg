@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="700" viewBox="0 0 1500 700" fill="none">
+ <defs>
+  <linearGradient id="red" x1="365" y1="145" x2="820" y2="495" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF2F2"/><stop offset=".17" stop-color="#FF3138"/><stop offset=".64" stop-color="#FF002E"/><stop offset="1" stop-color="#FF6A35"/></linearGradient>
+  <linearGradient id="silver" x1="405" y1="145" x2="805" y2="495" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset=".2" stop-color="#8F9BA5"/><stop offset=".38" stop-color="#F5FAFC"/><stop offset=".58" stop-color="#76828D"/><stop offset=".78" stop-color="#E4EBF0"/><stop offset="1" stop-color="#AAB4BC"/></linearGradient>
+  <filter id="redglow" x="-30%" y="-40%" width="160%" height="180%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="17" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="core" x="-20%" y="-25%" width="140%" height="150%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <rect width="1500" height="700" fill="#070709"/>
+ <!-- Custom angular S, built from a single thick laser path -->
+ <path d="M810 160H493L405 240L466 300L739 344L805 409L728 485H415" stroke="#FF002E" stroke-width="70" stroke-linecap="square" stroke-linejoin="bevel" opacity=".82" filter="url(#redglow)"/>
+ <path d="M810 160H493L405 240L466 300L739 344L805 409L728 485H415" stroke="url(#silver)" stroke-width="52" stroke-linecap="square" stroke-linejoin="bevel"/>
+ <path d="M810 160H493L405 240L466 300L739 344L805 409L728 485H415" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" stroke-linejoin="bevel" filter="url(#core)"/>
+ <!-- Laser discharge flares -->
+ <path d="M827 142L855 120M398 492L370 516M388 240H344M821 409H868" stroke="#FF394A" stroke-width="3" stroke-linecap="round" filter="url(#redglow)"/>
+ <circle cx="862" cy="114" r="5" fill="#FFF0F0"/><circle cx="363" cy="522" r="5" fill="#FF5962"/>
+ <path d="M950 140V512" stroke="#393033" stroke-width="2"/>
+ <text x="1030" y="315" fill="#F7F4F4" font-family="Arial,Helvetica,sans-serif" font-size="83" font-weight="700" letter-spacing="5">STUDIO</text>
+ <text x="1034" y="388" fill="#FF3345" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="500" letter-spacing="18">LASER</text>
+ <path d="M1032 432H1370" stroke="#FF1638" stroke-width="4" filter="url(#redglow)"/>
+ <circle cx="1381" cy="432" r="5" fill="#FF6970"/>
+</svg>

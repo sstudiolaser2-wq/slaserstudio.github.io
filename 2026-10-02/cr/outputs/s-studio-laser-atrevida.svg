@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900" fill="none">
+ <defs>
+  <linearGradient id="chrome" x1="230" y1="120" x2="515" y2="710" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset=".13" stop-color="#6D7A86"/><stop offset=".25" stop-color="#FAFEFF"/><stop offset=".42" stop-color="#46535F"/><stop offset=".58" stop-color="#EAF2F8"/><stop offset=".72" stop-color="#64717D"/><stop offset=".86" stop-color="#FFFFFF"/><stop offset="1" stop-color="#778490"/></linearGradient>
+  <linearGradient id="laser" x1="95" y1="654" x2="748" y2="155" gradientUnits="userSpaceOnUse"><stop stop-color="#DFFF55"/><stop offset=".48" stop-color="#00FF69"/><stop offset="1" stop-color="#D7FF00"/></linearGradient>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="24" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="15" result="b"/><feOffset dx="20" dy="28"/><feComponentTransfer><feFuncA type="linear" slope=".7"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <rect width="1500" height="900" fill="#05070A"/>
+ <ellipse cx="430" cy="410" rx="400" ry="400" fill="#00FF69" opacity=".10" filter="url(#glow)"/>
+ <path d="M90 654L748 155" stroke="#00FF69" stroke-width="15" opacity=".82" filter="url(#glow)"/>
+ <text x="30" y="707" fill="#141B21" font-family="Arial,Helvetica,sans-serif" font-size="660" font-style="italic" font-weight="900" filter="url(#shadow)">S</text>
+ <text x="30" y="690" fill="url(#chrome)" font-family="Arial,Helvetica,sans-serif" font-size="660" font-style="italic" font-weight="900">S</text>
+ <path d="M95 654L748 155" stroke="url(#laser)" stroke-width="8"/>
+ <path d="M90 654L116 640L116 650L98 666Z" fill="#E6FF70"/>
+ <circle cx="749" cy="156" r="9" fill="#F2FFB8"/>
+ <path d="M850 165V705" stroke="#2F3B41" stroke-width="2"/>
+ <text x="925" y="367" fill="#F5F9FB" font-family="Arial,Helvetica,sans-serif" font-size="96" font-weight="700" letter-spacing="2">STUDIO</text>
+ <text x="932" y="444" fill="#C1CCD3" font-family="Arial,Helvetica,sans-serif" font-size="34" letter-spacing="19">LASER</text>
+ <path d="M928 480H1370" stroke="#00FF73" stroke-width="5" filter="url(#glow)"/>
+ <circle cx="1376" cy="480" r="6" fill="#D4FF00"/>
+ <text x="930" y="552" fill="#73848E" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="1">LASER STUDIO  /  01</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520" fill="none">
+ <defs>
+  <linearGradient id="n" x1="132" y1="96" x2="432" y2="426" gradientUnits="userSpaceOnUse"><stop stop-color="#D7FFFF"/><stop offset=".34" stop-color="#00F5FF"/><stop offset="1" stop-color="#37FFB4"/></linearGradient>
+  <filter id="g" x="32" y="12" width="510" height="496" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <rect width="1440" height="520" fill="#050708"/>
+ <!-- Minimal continuous neon S monogram with a sharp laser-cut turn -->
+ <g filter="url(#g)">
+  <path d="M392 139H227C184 139 155 163 155 199C155 229 178 246 219 257L329 286C370 297 393 314 393 346C393 382 364 406 321 406H146" stroke="url(#n)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M227 139V105M392 139L417 114M155 199H124M393 346H425M146 406V438" stroke="url(#n)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="227" cy="101" r="5" fill="#D7FFFF"/><circle cx="421" cy="110" r="5" fill="#00F5FF"/><circle cx="120" cy="199" r="5" fill="#00F5FF"/><circle cx="429" cy="346" r="5" fill="#37FFB4"/><circle cx="146" cy="442" r="5" fill="#37FFB4"/>
+ </g>
+ <path d="M500 112V408" stroke="#1E3334" stroke-width="1.5"/>
+ <text x="566" y="251" fill="#F1F7F7" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="600" letter-spacing="10">S STUDIO</text>
+ <text x="574" y="317" fill="#00F5CF" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" letter-spacing="17">LASER</text>
+ <path d="M572 351H960" stroke="#00F5CF" stroke-width="1.5" opacity=".72"/>
+ <path d="M974 351H1003" stroke="#00F5CF" stroke-width="4" stroke-linecap="round"/>
+</svg>
