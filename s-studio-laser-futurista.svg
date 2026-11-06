@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" fill="none">
+ <defs>
+  <linearGradient id="beam" x1="118" y1="105" x2="475" y2="414" gradientUnits="userSpaceOnUse"><stop stop-color="#74F7FF"/><stop offset=".52" stop-color="#28C8FF"/><stop offset="1" stop-color="#9A68FF"/></linearGradient>
+  <linearGradient id="word" x1="557" y1="166" x2="1188" y2="314" gradientUnits="userSpaceOnUse"><stop stop-color="#F5FBFF"/><stop offset="1" stop-color="#A9C9E2"/></linearGradient>
+  <filter id="soft" x="30" y="23" width="510" height="470" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="8" result="b"/><feComposite in="SourceGraphic" in2="b" operator="over"/></filter>
+ </defs>
+ <!-- Futuristic laser aperture enclosing a circuit S -->
+ <g stroke="url(#beam)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M255 73h-84c-34 0-61 27-61 61v28M255 73h84c34 0 61 27 61 61v28M255 447h-84c-34 0-61-27-61-61v-28M255 447h84c34 0 61-27 61-61v-28" stroke-width="10" opacity=".72"/>
+  <path d="M333 164H220c-36 0-61 20-61 49 0 24 18 38 49 47l95 29c31 9 49 23 49 47 0 29-25 49-61 49H177" stroke-width="19"/>
+  <path d="M219 164v-37M333 164l28-28M159 213h-39M352 336h39M177 385v37" stroke-width="7"/>
+  <circle cx="219" cy="124" r="8" fill="#74F7FF" stroke-width="4"/><circle cx="365" cy="132" r="8" fill="#5ED9FF" stroke-width="4"/><circle cx="116" cy="213" r="8" fill="#74F7FF" stroke-width="4"/><circle cx="395" cy="336" r="8" fill="#A079FF" stroke-width="4"/><circle cx="177" cy="426" r="8" fill="#A079FF" stroke-width="4"/>
+  <path d="M95 260h42M373 260h43" stroke-width="2" opacity=".6"/>
+ </g>
+ <path d="M476 122v276" stroke="#38D7F3" stroke-width="2" opacity=".42"/>
+ <text x="540" y="256" fill="url(#word)" font-family="Arial, sans-serif" font-size="90" font-weight="600" letter-spacing="2">S STUDIO</text>
+ <text x="547" y="326" fill="#55DFF4" font-family="Arial, sans-serif" font-size="27" font-weight="500" letter-spacing="15">L A S E R</text>
+ <path d="M548 359h440" stroke="url(#beam)" stroke-width="2" opacity=".58"/>
+ <circle cx="1004" cy="359" r="4" fill="#9A68FF"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="620" viewBox="0 0 1500 620" fill="none">
+ <defs>
+  <linearGradient id="silver" x1="130" y1="110" x2="455" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset=".16" stop-color="#AEB9C3"/><stop offset=".32" stop-color="#F8FCFF"/><stop offset=".5" stop-color="#737E89"/><stop offset=".69" stop-color="#E7EDF2"/><stop offset=".84" stop-color="#89949F"/><stop offset="1" stop-color="#F8FBFF"/></linearGradient>
+  <linearGradient id="accent" x1="696" y1="0" x2="1260" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#A7FF00"/><stop offset="1" stop-color="#00F58A"/></linearGradient>
+  <filter id="shadow" x="70" y="43" width="490" height="530" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="13" result="blur"/><feOffset dy="12"/><feComponentTransfer><feFuncA type="linear" slope=".6"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <rect width="1500" height="620" fill="#080B10"/>
+ <!-- Bold sculpted chrome S mark -->
+ <text x="106" y="500" fill="#222A33" font-family="Arial Black,Arial,sans-serif" font-size="470" font-weight="900" letter-spacing="-28" filter="url(#shadow)">S</text>
+ <text x="95" y="482" fill="url(#silver)" stroke="#F4F8FC" stroke-width="1.5" font-family="Arial Black,Arial,sans-serif" font-size="470" font-weight="900" letter-spacing="-28">S</text>
+ <path d="M550 132V488" stroke="#35404A" stroke-width="2"/>
+ <text x="635" y="296" fill="#F4F7FA" font-family="Arial,Helvetica,sans-serif" font-size="94" font-weight="700" letter-spacing="7">STUDIO</text>
+ <text x="642" y="376" fill="#B8C4CE" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="500" letter-spacing="18">LASER</text>
+ <path d="M640 420H1220" stroke="url(#accent)" stroke-width="4"/>
+ <path d="M640 439H880" stroke="#6C7882" stroke-width="1" opacity=".6"/>
+ <circle cx="1232" cy="420" r="5" fill="#C85CFF"/>
+</svg>

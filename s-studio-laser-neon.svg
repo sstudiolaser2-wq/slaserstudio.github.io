@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" fill="none">
+ <defs>
+  <linearGradient id="electric" x1="126" y1="84" x2="452" y2="447" gradientUnits="userSpaceOnUse"><stop stop-color="#B6FFFF"/><stop offset=".42" stop-color="#00F5FF"/><stop offset="1" stop-color="#00A9FF"/></linearGradient>
+  <filter id="neonGlow" x="35" y="10" width="530" height="500" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="9" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <!-- Solid black field -->
+ <rect width="1400" height="520" fill="#030609"/>
+ <!-- Electric S: angular, cut like a lightning path -->
+ <g filter="url(#neonGlow)" stroke="url(#electric)" stroke-linecap="square" stroke-linejoin="bevel">
+  <path d="M389 124H221L157 194L198 241L342 279L378 325L312 396H132" stroke-width="27"/>
+  <path d="M220 124V82M389 124L425 88M157 194H108M378 325H429M132 396V438" stroke-width="8"/>
+  <path d="M165 275l-30 23 30 23M373 218l34-22-27-26" stroke-width="6"/>
+  <circle cx="220" cy="78" r="8" fill="#B6FFFF" stroke-width="4"/><circle cx="429" cy="84" r="8" fill="#00F5FF" stroke-width="4"/><circle cx="104" cy="194" r="8" fill="#00F5FF" stroke-width="4"/><circle cx="433" cy="325" r="8" fill="#00BFFF" stroke-width="4"/><circle cx="132" cy="442" r="8" fill="#00BFFF" stroke-width="4"/>
+ </g>
+ <path d="M500 90v340" stroke="#00F5FF" stroke-width="2" opacity=".55"/>
+ <text x="565" y="245" fill="#F5FFFF" font-family="Arial, sans-serif" font-size="86" font-weight="700" letter-spacing="7">S STUDIO</text>
+ <text x="572" y="319" fill="#00F5FF" font-family="Arial, sans-serif" font-size="29" font-weight="600" letter-spacing="16">LASER</text>
+ <path d="M570 352h470" stroke="#00F5FF" stroke-width="2" opacity=".78"/>
+ <path d="M1050 352h42" stroke="#00F5FF" stroke-width="5"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+ <defs>
+  <linearGradient id="pulse" x1="392" y1="174" x2="808" y2="611" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF4FF"/><stop offset=".24" stop-color="#FF39D2"/><stop offset=".62" stop-color="#A83CFF"/><stop offset="1" stop-color="#43E7FF"/></linearGradient>
+  <filter id="aura" x="263" y="58" width="674" height="667" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="22" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="core" x="290" y="86" width="620" height="610" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <rect width="1200" height="900" fill="#05040A"/>
+ <!-- New upright S monogram, drawn as a sharp laser pulse -->
+ <path d="M777 181H470L405 247L456 300L737 354L795 414L738 473L431 473" stroke="url(#pulse)" stroke-width="25" stroke-linecap="square" stroke-linejoin="bevel" opacity=".9" filter="url(#aura)"/>
+ <path d="M777 181H470L405 247L456 300L737 354L795 414L738 473L431 473" stroke="#FFF7FF" stroke-width="4" stroke-linecap="square" stroke-linejoin="bevel" filter="url(#core)"/>
+ <!-- Laser flashes at the cuts -->
+ <path d="M777 181L842 148M431 473L366 506M405 247H325M795 414H875" stroke="#FF49D7" stroke-width="3" stroke-linecap="round"/>
+ <path d="M840 147l22-11M367 507l-22 11" stroke="#55ECFF" stroke-width="2" stroke-linecap="round"/>
+ <circle cx="866" cy="134" r="5" fill="#F7D8FF"/><circle cx="340" cy="522" r="5" fill="#55ECFF"/>
+ <path d="M310 625H890" stroke="#30223A" stroke-width="1"/>
+ <text x="600" y="716" text-anchor="middle" fill="#F8F5FB" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="600" letter-spacing="19">S STUDIO</text>
+ <text x="600" y="775" text-anchor="middle" fill="#FF4BD9" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" letter-spacing="22">LASER</text>
+ <path d="M492 812H708" stroke="#9B51FF" stroke-width="2"/>
+</svg>

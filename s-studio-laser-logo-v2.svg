@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" fill="none">
+ <defs>
+  <linearGradient id="a" x1="235" y1="102" x2="735" y2="566" gradientUnits="userSpaceOnUse"><stop stop-color="#B7FF3C"/><stop offset="1" stop-color="#00D8C8"/></linearGradient>
+ </defs>
+ <!-- angular S formed by a continuous laser path -->
+ <path d="M733 154H467c-85 0-137 48-137 113 0 54 39 85 111 105l208 58c71 20 110 51 110 105 0 65-52 113-137 113H356" stroke="url(#a)" stroke-width="26" stroke-linecap="square" stroke-linejoin="round"/>
+ <!-- circuit branches -->
+ <path d="M467 154V86M733 154l55-55M330 267h-73M759 430h90M356 548v-61" stroke="url(#a)" stroke-width="9" stroke-linecap="square"/>
+ <circle cx="467" cy="78" r="13" fill="#B7FF3C"/><circle cx="795" cy="91" r="13" fill="#77F77D"/><circle cx="248" cy="267" r="13" fill="#55E9B5"/><circle cx="857" cy="430" r="13" fill="#00D8C8"/><circle cx="356" cy="479" r="13" fill="#00D8C8"/>
+ <text x="600" y="265" text-anchor="middle" fill="#F4F8F7" font-family="Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="8">S STUDIO</text>
+ <text x="600" y="344" text-anchor="middle" fill="#B7FF3C" font-family="Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="16">LASER</text>
+ <path d="M445 389h310" stroke="#B7FF3C" stroke-width="2" opacity=".65"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="480" viewBox="0 0 1400 480" fill="none">
+  <defs>
+    <linearGradient id="neon" x1="92" y1="90" x2="405" y2="396" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67F4FF"/>
+      <stop offset=".52" stop-color="#35BFFF"/>
+      <stop offset="1" stop-color="#9B72FF"/>
+    </linearGradient>
+    <linearGradient id="type" x1="535" y1="135" x2="1175" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FCFF"/><stop offset="1" stop-color="#B4D8E8"/>
+    </linearGradient>
+    <filter id="glow" x="0" y="0" width="480" height="480" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Circuit-inspired S monogram -->
+  <g stroke="url(#neon)" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M352 104H204c-53 0-91 31-91 75 0 40 31 62 78 75l113 31c47 13 78 35 78 75 0 44-38 75-91 75H143" stroke-width="25"/>
+    <path d="M204 104v-28M352 104l25-24M113 179H77M382 360h37M143 435v-29" stroke-width="8"/>
+    <circle cx="204" cy="76" r="10" fill="#67F4FF" stroke-width="5"/>
+    <circle cx="377" cy="80" r="10" fill="#7DAEFF" stroke-width="5"/>
+    <circle cx="77" cy="179" r="10" fill="#67F4FF" stroke-width="5"/>
+    <circle cx="419" cy="360" r="10" fill="#9B72FF" stroke-width="5"/>
+    <circle cx="143" cy="406" r="10" fill="#9B72FF" stroke-width="5"/>
+    <path d="M100 225h38M349 255h42M211 332h-45" stroke-width="5" opacity=".75"/>
+  </g>
+  <path d="M472 92v296" stroke="#3CCEF4" stroke-width="2" opacity=".32"/>
+  <text x="535" y="225" fill="url(#type)" font-family="Montserrat, Avenir Next, Arial, sans-serif" font-size="102" font-weight="650" letter-spacing="-3">S studio</text>
+  <text x="541" y="315" fill="#54DDF5" font-family="Montserrat, Avenir Next, Arial, sans-serif" font-size="38" font-weight="500" letter-spacing="13">LASER</text>
+  <path d="M540 350h515" stroke="#4BCFEA" stroke-width="2" opacity=".38"/>
+  <circle cx="1070" cy="350" r="4" fill="#8D82FF"/>
+</svg>
